@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+</head>
+<body>
+    <header>
+       <span id="burguer" class="material-icons" onclick="clickMenu()"> menu</span>
+     <nav id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Consultas</a></il>
+                <li><a href="#">Vacinas</a></li>
+                <li><a href="#">Procedimentos</a></li>
+                <li><a href="#">Exames</a></li>
+                <li><a href="#">Outros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="consultas">
+        <h1>Clínica Veterinária</h1>
+     </div>
+     <div class="pet">
+       <h2>Pet Popular</h2>
+       <p>Seu Melhor Amigo Bem Cuidado</p>
+    </div>
+    <div id=container>
+      <img src="imagens/gata2.png" alt="foto da gata" width="400px">
+      <img src="imagens/gatos1.png" alt="foto de gatos" width="800px">
+    </div>
+      <div>
+        <h2>Especialidades</h2>
+        <p class="texto">Cirurgias somos especialistas em todos os tipos de cirurgias temos uma equipe especializada e preparada para um bom atendimento.<a href="#">Saber Mais</a></p>
+    
+        <p class="texto">Ultrassonografia para diagnosticar uma ampla gama de doenças em seu pet.
+        <a href="#">Saber mais</a></p>
+
+        <p class="texto1">Dermatologia
+        <a href="#">Saber mais</a></p>
+       
+       <p class="card">Cardiologia
+       <a href="#">Saber mais</a></p>
+
+        <p class="img">Imagionologia
+        <a href="#">Saber mais</a></p>
+    </div>
+       <button type="button">
+        <a href="#">Ver Nossos Serviços  Oferecidos </a>
+      </button>
+    <div class=redessociais>
+      <h3>Siga nas nossas Redes Sociais</h3>
+    </div>
+      
+    <footer id="redes-sociais">
+      <a href="#" target="tela"><img src="imagens/icons8-facebook-novo-240.png"alt="facebook"></a>
+      <a href="#" target="tela"><img src="imagens/logo-instagram.jpg"alt="instagram"></a>
+      <a href="#" target="tela"><img src="imagens/logo-twitter.jpg" alt="twitter"></a>
+      <a href="#" target="tela"><img src="imagens/whatsapp-colorido.png" alt="whatsapp"></a>
+      <a href="#" target="tela"><img src="imagens/facebook-colorido.png"alt="youtube"></a>
+  </footer>
+  </main>
+  <script>
+      function clickMenu() {
+       if (itens.style.display =='block') {
+          itens.style.display = 'none'
+      } else {
+        itens.style.display = 'block'
+      }
+           
+  }
+    </script>
+</body>
+</html>
